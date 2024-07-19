@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: lightblue;
+  font-family: system-ui;
+}
+#container-formulario {
+  background: white;
+  border: 1px solid lightgray;
+  box-sizing: content-box;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px;
+}
+#formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#container-habitaciones {
+  background: white;
+  border: 1px solid lightgray;
+  box-sizing: content-box;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px;
+}
+.alerta {
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+}
+.error {
+  background: red;
+  color: white;
+}
+.exito {
+  background: rgb(62, 204, 62);
+}
+.editarBtn {
+  background: rgb(56, 56, 255);
+  margin-left: 10px;
+  color: white;
+}
